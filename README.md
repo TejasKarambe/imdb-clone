@@ -13,9 +13,7 @@ Then in cmd type `npm install` so, all packages will install.
 copy the following and paste in that folder's cmd
 
 ```
-
   npm run dev   
-
 ```
 
 <h3>Results</h3>
