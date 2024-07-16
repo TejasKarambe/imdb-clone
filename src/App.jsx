@@ -10,7 +10,11 @@ function App() {
   let [watchlist, setWatchList] = useState([])
 
   
-
+  let handleAddtowatchlist = (movieObj)=>{
+    let newWatchList = [...watchlist, movieObj]
+    setWatchList[newWatchList]
+    console.log(newWatchList)
+  }
   return (
     <>
       <BrowserRouter>
